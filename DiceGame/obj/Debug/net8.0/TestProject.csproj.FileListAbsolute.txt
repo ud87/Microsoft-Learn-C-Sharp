@@ -1,0 +1,28 @@
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+D:\Programming\C sharp Projects\TestProject\bin\Debug\net8.0\TestProject.exe
+D:\Programming\C sharp Projects\TestProject\bin\Debug\net8.0\TestProject.deps.json
+D:\Programming\C sharp Projects\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+D:\Programming\C sharp Projects\TestProject\bin\Debug\net8.0\TestProject.dll
+D:\Programming\C sharp Projects\TestProject\bin\Debug\net8.0\TestProject.pdb
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.dll
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\refint\TestProject.dll
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.pdb
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+D:\Programming\C sharp Projects\TestProject\obj\Debug\net8.0\ref\TestProject.dll
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\bin\Debug\net8.0\TestProject.exe
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\bin\Debug\net8.0\TestProject.deps.json
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\bin\Debug\net8.0\TestProject.runtimeconfig.json
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\bin\Debug\net8.0\TestProject.dll
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\bin\Debug\net8.0\TestProject.pdb
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.dll
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\refint\TestProject.dll
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.pdb
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+D:\Programming\C sharp Projects\Microsoft Learn\DiceGame\obj\Debug\net8.0\ref\TestProject.dll
