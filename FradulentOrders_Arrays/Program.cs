@@ -9,7 +9,7 @@ fradulentOrderIDs[2] = "C789";
 //fradulentOrderIDs[3] = "D000";
 */
 
-string[] fradulentOrderIDs = ["A213", "B456", "C789"];      //collection expression syntax can also use {} instead of []
+string[] fradulentOrderIDs = ["A213", "B456", "C789", "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"];      //collection expression syntax can also use {} instead of []
 
 Console.WriteLine($"First: {fradulentOrderIDs[0]}");
 Console.WriteLine($"Second: {fradulentOrderIDs[1]}");
@@ -19,4 +19,13 @@ fradulentOrderIDs[0] = "F000";
 Console.WriteLine($"Reassign First: {fradulentOrderIDs[0]}");
 
 //length of an array can be found using .Length property
-Console.WriteLine($"There are {fradulentOrderIDs.Length} fradulent orders to process.");
+Console.WriteLine($"There are {fradulentOrderIDs.Length} fradulent orders to process.\n");
+
+//Finds and prints all the fraudlentOrderId's starting with "B
+foreach (string fradulentOrderId in fradulentOrderIDs)
+{
+    if (fradulentOrderId.StartsWith("B"))
+    {
+        Console.WriteLine(fradulentOrderId);
+    }
+}

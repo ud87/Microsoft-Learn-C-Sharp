@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FradulentOrders_Arrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b23119c477a2bbf71cd0e857760c1950b23c898")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dc788d2169649749c6661d8ca1a78bfae6f7109")]
 [assembly: System.Reflection.AssemblyProductAttribute("FradulentOrders_Arrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FradulentOrders_Arrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
