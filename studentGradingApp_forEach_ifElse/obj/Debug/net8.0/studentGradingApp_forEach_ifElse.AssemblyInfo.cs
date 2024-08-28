@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("studentGradingApp_forEach_ifElse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ed81ec65014cb775bb52be7b6da2efa52fe07b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e82d91f6bdf1f2a255d0f0ffafc2d65ffdc6d4d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("studentGradingApp_forEach_ifElse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("studentGradingApp_forEach_ifElse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
