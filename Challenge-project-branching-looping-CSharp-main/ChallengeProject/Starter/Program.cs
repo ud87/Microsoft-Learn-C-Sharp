@@ -291,7 +291,7 @@ do
 
             for (int i = 0; i < 6; i++)     //loops through max 6 animals
             {
-                if (ourAnimals[i, 0] != "ID #: ")       //if id is blank i.e. no id
+                if (ourAnimals[i, 0] != "ID #: ")       //if id is not blank i.e. no id
                 {
                     if (ourAnimals[i, 2] == "Age: ?")   //checks if age is blank or ?
                     {
@@ -320,7 +320,8 @@ do
                                 ourAnimals[i, 4] = "Physical description: " + animalPhysicalDescription;
                                 validEntry = true;
                             }
-                            else {
+                            else
+                            {
                                 validEntry = false;
                             }
                         } while (validEntry == false);
@@ -336,7 +337,46 @@ Press the Enter key to continue.");
 
         case "4":
             // Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < 6; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")       //if id is not blank i.e. no id
+                {
+                    if (ourAnimals[i, 3] == "Nickname: ") //checks if nickname is blank
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+                            if (readResult != null && readResult is string && readResult.Length > 0)                 //only if readResult is not null
+                            {
+                                animalNickname = readResult;
+                                ourAnimals[i, 3] = "Nickname: " + animalNickname;                //assigns animalAge to array 
+                                validEntry = true;       //will only set numbers to true else everything will be false
+                            }
+                        } while (validEntry == false);
+                    }
+
+                    if (ourAnimals[i, 5] == "Personality: ")
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter a personality description for {ourAnimals[i, 0]} (likes or dislikes, tricks, energy level)");
+                            readResult = Console.ReadLine();
+                            if (readResult != null && readResult.Length > 0 && readResult is string)
+                            {
+                                animalPersonalityDescription = readResult;
+                                ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription;
+                                validEntry = true;
+                            }
+                            else
+                            {
+                                validEntry = false;
+                            }
+                        } while (validEntry == false);
+                    }
+                }
+            }
+            Console.WriteLine("Nickname and personality description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
