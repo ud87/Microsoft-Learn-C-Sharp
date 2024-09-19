@@ -109,9 +109,129 @@ string ReverseWord(string word)
 }
 
 
+
+//Return Booleans from methods
+string[] words = { "racecar", "talented", "deified", "tent", "tenet" };
+
+Console.WriteLine("Is it a palindrome?");
+foreach (string word in words)
+{
+    Console.WriteLine($"{word}: {IsPalindrome(word)}");
+}
+
+bool IsPalindrome(string word)
+{
+    int start = 0;
+    int end = word.Length - 1;
+
+    while (start < end)
+    {
+        if (word[start] != word[end])
+        {
+            return false;
+        }
+        start++;
+        end--;
+    }
+    return true;
+}
+
+
+//Return strings, boolean from methods added to methodsThatReturnValues
+
+//Return arrays from methods
+//Find two coins whose sum is equal to a target value
+int target = 30;
+int[] coins = new int[] { 5, 5, 50, 25, 25, 10, 5 };
+int[,] result = TwoCoins(coins, target);
+
+if (result.Length == 0)
+{
+    Console.WriteLine("No two coins make change");
+}
+else
+{
+    Console.WriteLine("Change found at positions:");
+    for (int i = 0; i < result.GetLength(0); i++)
+    {
+        if (result[i, 0] == -1)
+        {
+            break;
+        }
+        Console.WriteLine($"{result[i, 0]},{result[i, 1]}");
+    }
+}
+
+int[,] TwoCoins(int[] coins, int target)
+{
+    int[,] result = { { -1, -1 }, { -1, -1 }, { -1, -1 }, { -1, -1 }, { -1, -1 } };
+    int count = 0;
+
+    for (int curr = 0; curr < coins.Length; curr++)
+    {
+        for (int next = curr + 1; next < coins.Length; next++)
+        {
+            if (coins[curr] + coins[next] == target)
+            {
+                result[count, 0] = curr;
+                result[count, 1] = next;
+                count++;
+            }
+            if (count == result.GetLength(0))
+            {
+                return result;
+            }
+        }
+    }
+    return (count == 0) ? new int[0, 0] : result;
+}
+
 */
 
 
+//Excercise - complete the challenge to add methods to make the game playable
+
+Random random = new Random();
+string answer = "";
+
+Console.WriteLine("Would you like to play? (Y/N)");
+
+if (ShouldPlay())
+{
+    PlayGame();
+}
 
 
+bool ShouldPlay()
+{
+    answer = Console.ReadLine();
+    if (answer == "Y" || answer == "y")
+    {
+        return true;
+    }
+    else return false;
 
+}
+
+void PlayGame()
+{
+    var play = true;
+
+    while (play)
+    {
+        var target = random.Next(1, 5); //generate a random number between 1 and 5
+        var roll = random.Next(1, 5);   //generate a random number between 1 and 5
+
+        Console.WriteLine($"Roll a number greater than {target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose(target, roll));
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+    }
+}
+
+string WinOrLose(int target, int roll)
+{
+    return roll > target ? "You win!" : "You lose!";
+}
